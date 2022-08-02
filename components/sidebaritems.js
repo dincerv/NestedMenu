@@ -3,7 +3,7 @@ import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 // import boxes from '../pages/data'
 
 function SidebarItems({ item }) {
-  const [active, setActive] = React.useState(false)
+  const [active, setActive] = useState(false)
 
   if (item.nodeChild) {
     return (
@@ -16,7 +16,7 @@ function SidebarItems({ item }) {
         </div>
         <div className="sidebar-content">
           {item.nodeChild.map((child, index) => (
-            <SidebarItems key={index} item={child} />
+            <SidebarItems key={item.nodeChild.id} item={child} />
           ))}
         </div>
       </div>

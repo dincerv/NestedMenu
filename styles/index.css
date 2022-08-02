@@ -90,3 +90,7 @@ body {
 .sidebar-content {
   font-size: 14px;
 }
+
+.bi bi-arrow-down-square-fill {
+  background-color: red;
+}

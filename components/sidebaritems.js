@@ -3,8 +3,6 @@ import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 // import boxes from '../pages/data'
 
 function SidebarItems({ item }) {
-  // const [squares, setSquares] = React.useState(boxes)
-
   const [active, setActive] = React.useState(false)
 
   if (item.nodeChild) {

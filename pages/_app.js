@@ -1,6 +1,6 @@
 import '../styles/index.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-// import 'bootstrap/dist/css/bootstrap.min.css'
 import Sidebar from '../components/Sidebar'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Sidebar />
       <div className="container">
         <h1>JavaScript Nested MENU Project</h1>
+        <i className="bi bi-arrow-down-square-fill" />
         <p>Dincer Velioglu</p>
       </div>
     </div>

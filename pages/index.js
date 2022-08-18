@@ -1,7 +1,14 @@
-import 'bootstrap/dist/css/bootstrap.css'
-
-import App from './_app'
+import Sidebar from '../components/Sidebar'
 
 export default function Home() {
-  return <App />
+  return (
+    <div className="main">
+      <Sidebar />
+      <div className="container">
+        <h1>JavaScript Nested MENU Project</h1>
+        <i className="bi bi-arrow-down-square-fill" />
+        <p>Dincer Velioglu</p>
+      </div>
+    </div>
+  )
 }
